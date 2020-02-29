@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  fetch('/functions/helloworld')
+    .then(res => res.text())
+    .then(console.log)
+    .catch(console.error)
+
   return (
     <div className="App">
       <header className="App-header">

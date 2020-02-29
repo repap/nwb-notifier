@@ -22,7 +22,7 @@
         "function": "helloWorld"
       },
       {
-        "source": "**",
+        "source": "/",
         "destination": "/index.html"
       }
     ]
